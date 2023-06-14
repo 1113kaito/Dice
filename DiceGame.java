@@ -15,9 +15,9 @@ class DiceGame{
         System.out.println("Die 2:"+rani2);
         System.out.println("Total value:"+(rani1+rani2));
 	 if(rani1+rani2 >=7){
-            System.out.println("You won");
+            System.out.println(name+" won!");
         }else{
-            System.out.println("You lost");
+            System.out.println(name+" lost!");
         }
     }
 }
